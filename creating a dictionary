@@ -1,0 +1,19 @@
+# creating a dictionary
+student ={"name":"siddhi",
+          "age":18,
+          "city":"pune",
+          "marks":90}
+
+print(student)
+
+# accessing value 
+print(student["name"])
+print(student["marks"])
+
+# adding a new key value pair 
+student["grade"] ="A"
+
+# updating an existing key value pair
+student["age"] = 19
+
+print(student)

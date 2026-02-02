@@ -1,0 +1,15 @@
+# creating a set 
+fruits =("apple","banana","mango","lime")
+
+print(fruits)
+
+#access frist element
+print(fruits[0])
+
+#access last element
+print(fruits[-1])
+
+# adding an element
+fruits = fruits + ("orange",)
+
+print(fruits)

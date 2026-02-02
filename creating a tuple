@@ -1,0 +1,18 @@
+# creating a tuple
+num_tuple =(1,2,3,4,50,78,99)
+
+print(num_tuple)
+
+#accessing elements using index
+print(num_tuple[0])
+print(num_tuple[4])
+
+#adding an element to a tuple
+num_tuple = num_tuple +(100,77)
+
+print(num_tuple)
+
+# removing an element
+num_tuple =(4)
+
+print(num_tuple)
