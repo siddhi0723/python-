@@ -1,0 +1,19 @@
+class Student:
+    def __init__(self, name, roll_no):
+        # Instance variables
+        self.name = name
+        self.roll_no = roll_no
+
+    def display(self):
+        print("Name:", self.name)
+        print("Roll No:", self.roll_no)
+
+
+# Creating objects
+s1 = Student("Siddhi", 101)
+s2 = Student("prathamesh", 102)
+
+# Accessing instance variables
+s1.display()
+print("Name of s2:", s2.name)
+print("Roll No of s2:", s2.roll_no)
